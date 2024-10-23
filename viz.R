@@ -18,3 +18,5 @@ st2 <-  filter(st, st$Mile > 4 & st$Per.Mile.Pace < 9 )
 summary(lm(st2$Per.Mile.Pace~st2$Mile+st2$Average.Heart.Rate+st2$Average.Grade+st2$Elevation.Gain))
 
 summary(lm(st2$Per.Mile.Pace~st2$Activity.ID))
+
+#test
